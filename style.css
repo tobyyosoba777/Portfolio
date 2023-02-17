@@ -166,24 +166,28 @@ span {
 .social a:nth-child(1):hover {
     transform: scale(1.3);
     background: #0044ff;
+    transition: .4s;
 
 }
 
 .social a:nth-child(2):hover {
     transform: scale(1.3);
     background: #2e66ff;
+    transition: .4s;
 
 }
 
 .social a:nth-child(3):hover {
     transform: scale(1.3);
-    background: linear-gradient(to top right,  rgba(234, 255, 0, 0.6), rgb(255, 0, 106));
+    background: linear-gradient(to top right,  rgba(255, 0, 0, 0.781), rgb(140, 0, 255));
+    transition: .4s;
 
 }
 
 .social a:nth-child(4):hover {
     transform: scale(1.3);
     background: #2382ff;
+    transition: .4s;
 
 }
 
