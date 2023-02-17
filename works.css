@@ -131,7 +131,7 @@ nav .nav-list li.btn:hover a {
 
 .container .hero-text .projects {
     display: flex;
-    /* flex-direction: eow; */
+    flex-direction: column;
 }
 
 span {
