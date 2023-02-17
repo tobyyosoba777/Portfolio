@@ -202,6 +202,7 @@ span {
 @media screen and (max-width:930px) {
     nav .hamb {
         display: initial;
+        position: fixed;
     }
     .click {
         top: 46px;
@@ -223,12 +224,12 @@ span {
     }
     nav .nav-list {
         display: none;
-        position: absolute;
+        position: fixed;
         top: 90px;
         right: -65%;
         bottom: 0;
-        width: 60%;
-        height: 50%;
+        width: 90%;
+        height: 90%;
         background: black;
         z-index: 2;
         padding: 6% 9%;
@@ -247,7 +248,7 @@ span {
         margin-bottom: 40px;
     }
     nav .nav-list li.btn a {
-        position: absolute;
+        position: fixed;
         bottom: 0%;
         right: 20%;
         left: 20%;
