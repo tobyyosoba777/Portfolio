@@ -102,11 +102,11 @@ nav .nav-list li.btn a {
     padding: 9px 28px;
     border-radius: 30px;
     line-height: 1.3;
-    color: #2ecc71;
+    color: #ff00b3;
 }
 
 nav .nav-list li.btn:hover a {
-    background: #2ecc71;
+    background: #ff008c;
     color: white;
     border: 2px solid transparent;
     transition: .4s;
@@ -197,12 +197,12 @@ span {
 
 .container .hero-text button {
     color: #eee;
-    background: #2ecc71;
+    background: #ff0095;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     padding: 8px 30px;
-    border: 2px solid #2ecc71;
+    border: 2px solid #ff00b3;
     border-radius: 30px;
     cursor: pointer;
 }
