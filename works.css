@@ -21,7 +21,8 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,0,0.1)), url("./images/www.jpg");
+    /* background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0,0.2)), url("./images/www.jpg"); */
+    background: #333;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -71,7 +72,7 @@ nav .hamb span {
 }
 
 nav .hamb span:nth-child(2) {
-    margin: 7px 0px;
+    margin: 6px 0px;
 }
 
 nav .nav-list {
@@ -135,26 +136,38 @@ nav .nav-list li.btn:hover a {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     /* margin: 0 auto; */
     /* justify-content: center; */
     /* align-items: center; */
 }
 
-.container .hero-text .projects div {
+.container .hero-text .projects a {
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items:center;
     flex-direction: column;
-    margin: 5px;
-    width: 100px;
-    height: 100px;
-    border-radius: 1rem;
-    background:rgb(255, 115, 0);
+    margin-right: 5px ;
+    margin-bottom: 5px;
+    width: 40%;
+    height: 200px;
+    border-radius: 48px;
+background: #f4374a;
+box-shadow:  11px 11px 55px #701922,
+             -11px -11px 55px #ff5572;
 }
 
-.container .hero-text .projects div h3 {
+.container .hero-text .projects a h3 {
     color: #4c00ff;
+}
+
+.container .hero-text .projects a:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    /* box-shadow: 10px 10px 10px 10px rgba(255, 255, 255, 0.281); */
 }
 
 span {
@@ -346,5 +359,18 @@ span {
     nav .nav-list.open {
         right: 0;
         display: block;
+    }
+
+    .container .hero-text .projects a {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        margin: 5px;
+        width: 100%;
+        height: 120px;
+        border-radius: 0.5rem;
+        background:rgba(255, 115, 0, 0.76);
     }
 }
