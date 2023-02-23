@@ -95,6 +95,10 @@ nav .nav-list li:not(:last-child) a:hover {
     transition: .4s;
 }
 
+nav .nav-list .active {
+    color: #2ecc71;
+}
+
 nav .nav-list li.btn a {
     display: inline-block;
     background: transparent;
