@@ -28,6 +28,10 @@ body {
     position: relative;
 }
 
+.main-width form i {
+    color: rgb(55, 0, 255);
+}
+
 header {
     padding: 40px 0 30px;
     display: flex;
