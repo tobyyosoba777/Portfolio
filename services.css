@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    padding: 40px 0 30px;
+    padding: 25px 0 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -58,7 +58,7 @@ nav .hamb {
     width: 35px;
     height: 24px;
     right: 3%;
-    top: 60px;
+    top: 40px;
     z-index: 5;
     background: transparent;
     position: absolute;

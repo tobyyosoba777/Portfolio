@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    padding: 40px 0 30px;
+    padding: 25px 0 30px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -50,13 +50,13 @@ header {
 }
 
 nav .hamb {
+    position: absolute;
     width: 35px;
     height: 24px;
     right: 3%;
-    top: 60px;
+    top: 40px;
     z-index: 5;
     background: transparent;
-    position: absolute;
     cursor: pointer;
     display: none;
 }
@@ -269,7 +269,7 @@ span {
         display: none;
         position: fixed;
         top: 90px;
-        right: -65%;
+        right: -95%;
         bottom: 0;
         width: 100%;
         height: 100%;
@@ -288,6 +288,7 @@ span {
         align-items:center;
         justify-content: center;
         margin: 0 auto;
+
     }
 
     nav .nav-list li {
