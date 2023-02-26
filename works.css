@@ -114,6 +114,10 @@ nav .nav-list li.btn:hover a {
 
 }
 
+.nav-list .projects {
+    color:#2ecc71;
+}
+
 .container {
     width: 100%;
     padding-top: 50px;
