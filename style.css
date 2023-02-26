@@ -64,6 +64,7 @@ nav .hamb {
 nav .hamb span {
     display: block;
     background: #2ecc71;
+    border-radius: 10px;
     width: 100%;
     height: 3px;
     transition: .3s;
